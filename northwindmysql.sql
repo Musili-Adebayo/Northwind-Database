@@ -13,6 +13,9 @@ File Encoding         : 65001
 Date: 2016-04-27 13:53:24
 */
 
+CREATE DATABASE IF NOT EXISTS northwind;
+USE northwind;
+
 SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for `categories`
